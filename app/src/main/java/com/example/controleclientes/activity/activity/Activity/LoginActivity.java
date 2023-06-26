@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.example.controleclientes.R;
 import com.example.controleclientes.activity.activity.Model.Usuario;
 import com.example.controleclientes.activity.activity.Util.ConfiguraBd;
+import com.example.controleclientes.visualizarClientes;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -105,6 +106,8 @@ public class LoginActivity extends AppCompatActivity {
         Intent i = new Intent(this, CadastroActivity.class);
         startActivity(i);
     }
+
+
 
 
     protected void onStart(){
